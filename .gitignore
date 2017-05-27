@@ -1,1 +1,5 @@
 _site/
+_app/
+node_modules/
+gulpfile.js
+package.json
