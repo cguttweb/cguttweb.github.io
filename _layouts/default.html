@@ -2,7 +2,7 @@
 	<html>
 		<head>
 			<title>{{ page.title }}</title>
-			<link rel="stylesheet" type="text/css" href="/css/main.css">
+			<link rel="stylesheet" type="text/css" href="/css/blog.css">
 		</head>
 		<body>
 			<nav>
@@ -15,12 +15,8 @@
 
 			{{ content }}
 
-			</div><!-- /.container -->
-			<footer>
-	    		<ul>
-	        		<li><a href="http://www.cgweb.co.uk">My Personal Site</a></li>
-	        		<li><a href="https://github.com/cguttweb">my Github</a></li>
-				</ul>
-			</footer>
+			</div>
+			<!-- /.container -->
+			{ % include footer.html %}
 		</body>
 	</html>
