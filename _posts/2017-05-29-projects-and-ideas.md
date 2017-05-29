@@ -4,7 +4,7 @@ title: 'Projects'
 date: 2017-05-29
 ---
 
-Currently I have a number of possible project ideas on th go. Firstly one was to create this blog and keep it regularly updated with what I am currently learning. WE'll see how long that lasts...
+Currently I have a number of possible project ideas on the go. Firstly one was to create this blog and keep it regularly updated with what I am currently learning. WE'll see how long that lasts...
 
 Secondly I'd ike to create a test/practice site to learn how to use bootstrap and is used in a lot and seems a good idea to have a understanding of what it is and how it works.
 
