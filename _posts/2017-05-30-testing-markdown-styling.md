@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: testing
 title: 'test styling page'
 date: 2017-05-30
 ---
