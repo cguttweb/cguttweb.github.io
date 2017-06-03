@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: testing
 title: 'test page'
 ---
 
@@ -19,14 +19,10 @@ second level header text
 
 *emphasised or italic text*
 
-* item 1
-* item 2
-* item 3
-    * new item
-    * new item 2
+- item 1
+- item 2
+- item 3
 
-1. first item
-2. second item
-3. third item
-    1. new list item
-    2. new list item 2
+* list 1
+* list 2
+* list 3
