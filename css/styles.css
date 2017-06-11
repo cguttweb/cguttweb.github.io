@@ -38,3 +38,7 @@ footer, footer a {
 	color: #FFFFFF;
 	padding: 0.25em 0.5em;
 }
+
+footer li {
+	display: inline-block;
+}

@@ -1,6 +1,6 @@
 ---
-layout: blog
-title: 'bootstrap'
+layout: posts
+title: 'Bootstrap'
 date: 2017-06-02
 ---
 

@@ -1,0 +1,39 @@
+/* PRACTICE PAGES STYLESHEET */
+
+body {
+  /*background-image: linear-gradient(to left, red 20%, orange 65%, yellow 100%);*/
+    background: #f1f2f2;
+    font: normal 1rem/1.5 'Open Sans', Arial, sans-serif;
+    }
+
+.container {
+    margin: 0 auto;
+    max-width:60em;
+}
+
+h1 {
+  font-family: 'Montserrat', serif;
+  text-align: center;
+  /*text-decoration: underline;
+  text-shadow: 3px 5px 5px #fff;*/
+}
+
+nav {text-align: center;}
+
+nav li {
+    display: inline-block;
+    padding-left: 0.5em;
+}
+
+a {
+    color: #F00;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover {
+    background: #000;
+    color: #FFF;
+    font-weight: bold;
+    text-decoration: none;
+}
