@@ -33,6 +33,11 @@ nav li {
 	padding-right: 0.5em;
 }
 
+code {
+	background: #fff;
+	color: #ff0000;
+}
+
 footer, footer a {
 	background: #333333;
 	color: #FFFFFF;
