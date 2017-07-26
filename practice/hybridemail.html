@@ -1,0 +1,359 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <!--[if !mso]><!-->
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!--<![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hybrid Email Attempt</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <!--[if (gte mso 9)|(IE)]>
+    <style type="text/css">
+        table {border-collapse: collapse;}
+    </style>
+    <![endif]-->
+</head>
+<!--  Hybrid fluid layout
+fluid refers to the use of many percentages
+hybrid refers to max-width being used to restrict elements on larger screens -->
+<body>
+    <center class="wrapper">
+        <div class="webkit">
+            <!-- including Outlook conditional table -->
+            <!--[if (gte mso 9)|(IE)]>
+                <table width="600" align="center">
+                <tr>
+                <td>
+                <![endif]-->
+                <table class="outer" align="center">
+                    <tr>
+                        <td class="full-width-image">
+                            <img src="http://placehold.it/600x300" alt="placeholder" width="600">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="one-column">
+                            <table width="100%">
+                                <tr>
+                                    <td class="inner contents">
+                                        <p class="h1">Header text</p>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat expedita, error mollitia asperiores quaerat magnam vero perferendis similique iste iusto.</p>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    <tr>
+                        <!-- conditional comments for Outlook which doesn't support max-width -->
+                        <td class="two-column">
+                            <!--[if (gte mso 9)|(IE)]>
+                            <table width="100%">
+                            <tr>
+                            <td width="50%" valign="top">
+                            <![endif]-->
+                            <!-- this div acts as column -->
+                            <div class="column">
+                                <table width="100%">
+                                    <tr>
+                                        <td class="inner">
+                                            <table class="contents">
+                                                <tr>
+                                                    <td>
+                                                        <img src="http://placehold.it/280x80" alt="placeholder">
+                                                            <tr>
+                                                                <td class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea, quae. Repellat error vel in dolorem, illo excepturi voluptatem totam praesentium.</td>
+                                                            </tr>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <!--[if (gte mso 9)|(IE)]>
+                            </td><td width="50%" valign="top">
+                            <![endif]-->
+                            <div class="column">
+                                <table width="100%">
+                                    <tr>
+                                        <td class="inner">
+                                            <table class="contents">
+                                                <tr>
+                                                    <td>
+                                                        <img src="http://placehold.it/280x80" alt="placeholder">
+                                                            <tr>
+                                                                <td class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea, quae. Repellat error vel in dolorem, illo excepturi voluptatem totam praesentium.</td>
+                                                            </tr>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <!--[if (gte mso 9)|(IE)]>
+                            </td>
+                            </tr>
+                            </table>
+                            <![endif]-->
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="three-column">
+                                <!--[if (gte mso 9)|(IE)]>
+                                <table width="100%">
+                                <tr>
+                                <td width="200" valign="top">
+                                <![endif]-->
+                                <div class="column">
+                                <table width="100%">
+                                    <tr>
+                                        <td class="inner">
+                                            <table class="contents">
+                                                <tr>
+                                                    <td>
+                                                        <img src="http://placehold.it/180x80" width="180" alt="" />
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="text">
+                                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam fugiat quod, modi facilis neque molestiae.
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                                <!--[if (gte mso 9)|(IE)]>
+                                </td><td width="200" valign="top">
+                                <![endif]-->
+                                <div class="column">
+                                <table width="100%">
+                                    <tr>
+                                        <td class="inner">
+                                            <table class="contents">
+                                                <tr>
+                                                    <td>
+                                                        <img src="http://placehold.it/180x80" width="180" alt="" />
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="text">
+                                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita ipsam, deserunt quisquam eos consectetur, similique officiis eveniet quibusdam natus aperiam.
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                                <!--[if (gte mso 9)|(IE)]>
+                                </td><td width="200" valign="top">
+                                <![endif]-->
+                                <div class="column">
+                                <table width="100%">
+                                    <tr>
+                                        <td class="inner">
+                                            <table class="contents">
+                                                <tr>
+                                                    <td>
+                                                        <img src="http://placehold.it/180x80" width="180" alt="" />
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="text">
+                                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis eaque ad, quas aspernatur! Maxime voluptatibus, fugiat officiis distinctio illum eius.
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                                <!--[if (gte mso 9)|(IE)]>
+                                </td>
+                                </tr>
+                                </table>
+                                <![endif]-->
+                        </td>
+                    </tr>
+                    <tr>
+        <td class="three-column">
+        <!--[if (gte mso 9)|(IE)]>
+        <table width="100%">
+        <tr>
+        <td width="200" valign="top">
+        <![endif]-->
+        <div class="column">
+        <table width="100%">
+            <tr>
+                <td class="inner contents">
+                    <p class="h2">Heading</p>
+                    <p>Class eleifend aptent taciti sociosqu ad litora torquent conubia</p>
+                    <p><a href="#">Read more</a></p>
+                </td>
+            </tr>
+        </table>
+        </div>
+        <!--[if (gte mso 9)|(IE)]>
+        </td><td width="200" valign="top">
+        <![endif]-->
+        <div class="column">
+        <table width="100%">
+            <tr>
+                <td class="inner contents">
+                    <p class="h2">Heading</p>
+                    <p>Class eleifend aptent taciti sociosqu ad litora torquent conubia</p>
+                    <p><a href="#">Read more</a></p>
+                </td>
+            </tr>
+        </table>
+        </div>
+        <!--[if (gte mso 9)|(IE)]>
+        </td><td width="200" valign="top">
+        <![endif]-->
+        <div class="column">
+        <table width="100%">
+            <tr>
+                <td class="inner contents">
+                    <p class="h2">Heading</p>
+                    <p>Class eleifend aptent taciti sociosqu ad litora torquent conubia</p>
+                    <p><a href="#">Read more</a></p>
+                </td>
+            </tr>
+        </table>
+        </div>
+        <!--[if (gte mso 9)|(IE)]>
+        </td>
+        </tr>
+        <tr>
+        <td width="200" valign="top">
+        <![endif]-->
+        <div class="column">
+        <table width="100%">
+            <tr>
+                <td class="inner contents">
+                    <p class="h2">Heading</p>
+                    <p>Class eleifend aptent taciti sociosqu ad litora torquent conubia</p>
+                    <p><a href="#">Read more</a></p>
+                </td>
+            </tr>
+        </table>
+        </div>
+        <!--[if (gte mso 9)|(IE)]>
+        </td><td width="200" valign="top">
+        <![endif]-->
+        <div class="column">
+        <table width="100%">
+            <tr>
+                <td class="inner contents">
+                    <p class="h2">Heading</p>
+                    <p>Class eleifend aptent taciti sociosqu ad litora torquent conubia</p>
+                    <p><a href="#">Read more</a></p>
+                </td>
+            </tr>
+        </table>
+        </div>
+        <!--[if (gte mso 9)|(IE)]>
+        </td><td width="200" valign="top">
+        <![endif]-->
+        <div class="column">
+        <table width="100%">
+            <tr>
+                <td class="inner contents">
+                    <p class="h2">Heading</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima, repellat.</p>
+                    <p><a href="#">Read more</a></p>
+                </td>
+            </tr>
+        </table>
+        </div>
+        <!--[if (gte mso 9)|(IE)]>
+        </td>
+        </tr>
+        </table>
+        <![endif]-->
+    </td>
+</tr>
+<tr>
+<td class="left-sidebar">
+        <!--[if (gte mso 9)|(IE)]>
+        <table width="100%">
+        <tr>
+        <td width="100">
+        <![endif]-->
+        <div class="column left">
+            <table width="100%">
+                <tr>
+                    <td class="inner">
+                        <img src="http://placehold.it/80x80" width="80" alt="" />
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <!--[if (gte mso 9)|(IE)]>
+        </td><td width="500">
+        <![endif]-->
+        <div class="column right">
+            <table width="100%">
+                <tr>
+                    <td class="inner contents">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda quibusdam hic voluptatibus nam laboriosam dolorum in aliquam, vero iusto qui.<a href="#">Read&nbsp;on</a>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <!--[if (gte mso 9)|(IE)]>
+        </td>
+        </tr>
+        </table>
+        <![endif]-->
+    </td>
+</tr>
+<tr>
+    <td class="right-sidebar" dir="rtl">
+        <!--[if (gte mso 9)|(IE)]>
+        <table width="100%" dir="rtl">
+        <tr>
+        <td width="100">
+        <![endif]-->
+        <div class="column left" dir="ltr">
+            <table width="100%">
+                <tr>
+                    <td class="inner contents">
+                        <img src="http://placehold.it/80x80" width="80" alt="" />
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <!--[if (gte mso 9)|(IE)]>
+        </td><td width="500">
+        <![endif]-->
+        <div class="column right" dir="ltr">
+            <table width="100%">
+                <tr>
+                    <td class="inner contents">
+                        Maecenas sed ante pellentesque, posuere leo id, eleifend dolor. Class aptent taciti sociosqu ad litora torquent per conubia nostra. <a href="#">Per&nbsp;inceptos</a>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <!--[if (gte mso 9)|(IE)]>
+        </td>
+        </tr>
+        </table>
+        <![endif]-->
+    </td>
+</tr>
+                </table>
+                <!--[if (gte mso 9)|(IE)]>
+                </td>
+                </tr>
+                </table>
+                <![endif]-->
+        </div>
+    </center>
+</body>
+</html>
