@@ -6,7 +6,7 @@ date: 2017-05-29
 
 Currently I have a number of possible project ideas on the go. Firstly one was to create this blog and keep it regularly updated with what I am currently learning. WE'll see how long that lasts...
 
-Secondly I'd ike to create a test/practice site to learn how to use bootstrap and is used in a lot and seems a good idea to have a understanding of what it is and how it works.
+Secondly I'd like to create a test/practice site to learn how to use bootstrap and is used in a lot and seems a good idea to have a understanding of what it is and how it works.
 
 In the past month or so, I have also been learning about the basics of sass pre-processor I have only used the basics of variables so far. I have a folder setup with gulp and a few plugins such as babel and sass to convert my ES6 Syntax and sass to more browser friendly JavaScript and CSS.
 
