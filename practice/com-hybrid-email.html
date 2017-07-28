@@ -1,6 +1,5 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/Dth/xhtml1-strict.dtd">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
-<!-- this doctype is used by gmail and outlook.com by default -->
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
@@ -13,42 +12,24 @@
 
         <title>Carnival of Madness Tour</title>
 
-        <!-- FAVICON IMAGES -->
-
-            <link rel="apple-touch-icon" sizes="57x57" href="emailcontent/favicon/apple-icon-57x57.png">
-            <link rel="apple-touch-icon" sizes="60x60" href="emailcontent/favicon/apple-icon-60x60.png">
-            <link rel="apple-touch-icon" sizes="72x72" href="emailcontent/favicon/apple-icon-72x72.png">
-            <link rel="apple-touch-icon" sizes="76x76" href="emailcontent/favicon/apple-icon-76x76.png">
-            <link rel="apple-touch-icon" sizes="114x114" href="emailcontent/favicon/apple-icon-114x114.png">
-            <link rel="apple-touch-icon" sizes="120x120" href="emailcontent/favicon/apple-icon-120x120.png">
-            <link rel="apple-touch-icon" sizes="144x144" href="emailcontent/favicon/apple-icon-144x144.png">
-            <link rel="apple-touch-icon" sizes="152x152" href="emailcontent/favicon/apple-icon-152x152.png">
-            <link rel="apple-touch-icon" sizes="180x180" href="emailcontent/favicon/apple-icon-180x180.png">
-            <link rel="icon" type="image/png" sizes="192x192" href="emailcontent/favicon/android-icon-192x192.png">
-            <link rel="icon" type="image/png" sizes="32x32" href="emailcontent/favicon/favicon-32x32.png">
-            <link rel="icon" type="image/png" sizes="96x96" href="emailcontent/favicon/favicon-96x96.png">
-            <link rel="icon" type="image/png" sizes="16x16" href="emailcontent/favicon/favicon-16x16.png">
-            <link rel="manifest" href="/manifest.json">
-            <meta name="msapplication-TileColor" content="#ffffff">
-            <meta name="msapplication-TileImage" content="emailcontent/favicon/ms-icon-144x144.png">
-            <meta name="theme-color" content="#ffffff">
-        <!-- END OF FAVICON IMAGES -->
-
         <style type="text/css">
         /* EMAIL RESET */
-        #outlook a {padding:0;} /* makes Outlook 2007+ show a view online link */
-        body {background-color: #ffffff; margin: 0!important; padding: 0; -ms-text-size-adjust:none; -webkit-text-size-adjust: 100%; font-size:14px; font-family: 'Helvetica', Arial, sans-serif;} /* prevents webkit and windows mobile changing default font sizes */
-        table,
-        table th {border-collapse:collapse; mso-table-lspace: 0pt; mso-table-rspace:0pt;} /* remove any gaps between tables in Outlook 2007+ */
-        img, a img {border:0; display: block; outline:none; text-decoration:none;} /* removes any borders when linking an image */
-        h1, h2, h3, h4, h5, h6{margin:0; padding:0;}
+        /*#outlook a {padding:0;} */
+        /* makes Outlook 2007+ show a view online link */
+        /*body {background-color: #ffffff; margin: 0!important; padding: 0; -ms-text-size-adjust:none; -webkit-text-size-adjust: 100%; font-size:14px; font-family: 'Helvetica', Arial, sans-serif;}*/
+         /* prevents webkit and windows mobile changing default font sizes */
+        /*table, table td {border-collapse:collapse; mso-table-lspace: 0pt; mso-table-rspace:0pt;} */
+        /* remove any gaps between tables in Outlook 2007+ */
+        /*img, a img {border:0; display: block; outline:none; text-decoration:none;} */
+        /* removes any borders when linking an image */
+        /*h1, h2, h3, h4, h5, h6{margin:0; padding:0;}
         p {margin: 1em 0;}
         a {color: #CC0000; text-decoration: none;}
-        a:hover {background-color: #CC0000; color: #FFFFFF!important;}
+        a:hover {background-color: #CC0000; color: #FFFFFF!important;}*/
 
         /* CLIENT SPECIFIC STYLES this targets Outlook.com */
         .ExternalClass {width:100%;}
-        .ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass th,
+        .ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td,
         .ExternalClass div {
                         line-height: 100%;
         }
@@ -57,26 +38,126 @@
 
         /* BASIC STYLES */
 
-        .content-table {
+        body {
+            margin: 0 !important;
+            padding: 0;
+            background-color: #ffffff;
+        }
+        table {
+            border-spacing: 0;
+            font-family: sans-serif;
+            color: #333333;
+        }
+        td {
+            padding: 0;
+        }
+        img {
+            border: 0;
+        }
+        .wrapper {
+            width: 100%;
+            table-layout: fixed;
+            -webkit-text-size-adjust: 100%;
+            -ms-text-size-adjust: 100%;
+        }
+        .container {
+            margin: 0 auto;
+            width: 95%;
+            max-width: 600px;
+        }
+        .image-full-width {
+            width: 100%;
+            max-width: 600px;
+            height: auto;
+        }
+        .inner {
+            padding: 10px;
+        }
+        p { Margin: 0; }
+        a {
+            color: #CC0000;
+            text-decoration: none;
+        }
+        /* one column */
+        .one-col, .contents {
+            text-align: left;
+        }
+        .one-col p {
+            font-size: 14px;
+            Margin-bottom: 5px;
+        }
+        /*Two column layout*/
+        .two-column {
+            text-align: center;
+            font-size: 0;
+        }
+        .two-column .column {
+            width: 100%;
+            max-width: 300px;
+            display: inline-block;
+            vertical-align: top;
+        }
+        .contents {
+            width:100%;
+        }
+        .two-column .contents {
+        font-size: 14px;
+            text-align: left;
+        }
+        .two-column img {
+            width: 100%;
+            max-width: 280px;
+            height: auto;
+        }
+        .two-column .text {
+            padding-top: 10px;
+        }
+        /*THREE COL LAYOUT*/
+        .three-col {
+            text-align: center;
+            font-size: 0;
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+        .three-col .column {
+            width: 100%;
+            max-width: 200px;
+            display: inline-block;
+            vertical-align: top;
+        }
+        .three-col .contents {
+            font-size: 14px;
+            text-align: center;
+        }
+        .three-col img {
+            width: 100%;
+            max-width: 180px;
+            height: auto;
+        }
+        .three-col .text {
+            padding-top: 10px;
+        }
+
+        /*.content-table {
             margin: 0 auto;
             max-width: 650px;
             table-layout: fixed;
             width: 95%;
-        }
+        }*/
 
          /* GMAIL */ /*gmail will strip body element and convert it to a div this is a fallback */
-        #body-table {
+        /*#body-table {
             height:100%!important;
             margin: 0;
             min-height: 1000px;
             padding: 0;
             width: 100%!important;
-        }
+        }*/
 
         /* MEDIA QUERIES */
 
         /* VIDEO HOLDER (from emailonacid blog) - THIS MEDIA QUERY WILL COVER MOST DEVICES HIDES VIDEO DIV AND DISPLAYS FALLBACK IMAGE */
-          @media screen and (max-width:800px) {
+          /*@media screen and (max-width:800px) {
             .video_holder {display:none;}
             .android {display:block !important;width:320px !important;height:176px !important;}
           }
@@ -84,10 +165,10 @@
           @media screen and (width:320px), screen and (width:703px){
             .android {display:none !important;}
             .video_holder {display:block !important;}
-          }
+          }*/
 
         /* THIS TARGETS OUTLOOK.COM */
-          .ExternalClass div.video_holder {display:none !important;}
+          /*.ExternalClass div.video_holder {display:none !important;}
           .ExternalClass div.android {display:block !important;width:100% !important;height:176px !important;}
 
         @media screen and (max-width:600px) {
@@ -111,10 +192,10 @@
                 height: auto !important;
                 max-width: 100% !important;
             }
-        }
+        }*/
 
         /* MOBILE STYLES */
-        @media screen and (max-width: 480px) {
+        /*@media screen and (max-width: 480px) {
             .mobile-hide {
                 display: none !important;
             }
@@ -126,29 +207,30 @@
         @media screen and (min-width:360px) and (max-width:414px) {
             .android {display:none !important;}
             .video_holder {display:block !important;}
-        }
+        }*/
 
         /* DESKTOP STYLES */
-        @media screen and (min-width: 600px) {
+        /*@media screen and (min-width: 600px) {
            .headline br {display: none!important;}
-        }
+        }*/
 
-        .buyMe {
+        /*.buyMe {
             border: 1px solid #000001;
             margin-right: 5px !important;
             padding: 10px 20px 10px 20px;
-        }
+        }*/
         /* IPAD - PORTRAIT WIDTH */
-        @media screen and (min-width:768px) {
+        /*@media screen and (min-width:768px) {
             .android {display:none !important;}
             .video_holder {display:block !important;}
-        }
+        }*/
 
         </style>
 
         <!-- OUTLOOK CONDITIONAL COMMENTS - this will display the fallback image instead of video as it is unsupported in Outlook version 9 = Outlook 2000+ -->
         <!--[if gte mso 9]>
             <style type="text/css">
+                table {border-collapse: collapse;}
                 div[class=video_holder] {display:none !important;}
                 div[class=android] {display:block !important;}
                 div[class="buyMe"] {
@@ -162,29 +244,31 @@
     </head>
 
     <body id="body-table" style="margin: 0; padding: 0; min-height: 1000px;">
+        <center class="wrapper">
+            <div class="webkit">
         <!--[if (gte mso 9)|(IE)]>
-        <table width="600" align="center">
+        <table width="650" align="center">
         <tr>
         <td>
         <![endif]-->
-    <!-- WRAPPER TABLE -->
-        <table border="0" cellpadding="0" cellspacing="0" width="100%">
+    <!-- CONTAINER TABLE -->
+        <!-- <table align="center" border="0" class="outer" cellpadding="0" cellspacing="0" width="100%">
             <tr>
-                <td align="center">
+                <td align="center"> -->
                     <!-- CONTENT TABLE -->
-                    <table class="content-table" border="0" cellpadding="0" cellspacing="0" width="650" style="border-collapse: collapse;">
+                    <table class="outer" border="0" cellpadding="0" cellspacing="0" width="650" style="border-collapse: collapse;">
                         <tr>
-                            <td align="center" valign="top">
+                            <td align="center" class="banner" valign="top">
                                 <!-- 1. EMAIL HEADER SECTION -->
                                 <img class="mobile-image" src="http://placehold.it/650x250" style="display:block; height: auto; max-width:100%;" alt="carnival-of-madness" title="carnival of madness logo">
                             </td>
                         </tr>
                         <tr>
-                            <td align="center" style="font-weight: normal;">
+                            <td align="center" class="one-column" style="font-weight: normal;">
                                 <!-- 2. INTRO SECTION -->
                                 <table align="left" border="0" cellpadding="0" cellspacing="0" width="100%">
                                     <tr>
-                                        <td class="headline" align="center" style="color: #CC0000; font-family: 'Montserrat', Arial, sans-serif; font-size: 26px; font-weight:normal; mso-line-height:exactly; line-height: 32px; padding: 10px 10px 10px 10px;">WHERE?&nbsp;<br style="display: none;">WHEN?&nbsp;<br style="display: none;">WHO?</td>
+                                        <td class="headline inner contents" align="center" style="color: #CC0000; font-family: 'Montserrat', Arial, sans-serif; font-size: 26px; font-weight:normal; mso-line-height:exactly; line-height: 32px; padding: 10px 10px 10px 10px;"><p>WHERE?&nbsp;<br style="display: none;">WHEN?&nbsp;<br style="display: none;">WHO?</p></td>
                                     </tr>
                                     <tr>
                                         <td class="intro" style="font-family: 'Open Sans', Arial, sans-serif; font-size: 16px; font-weight:normal; mso-line-height:exactly; line-height: 24px; padding: 10px 20px 10px 20px; text-align: left;">
@@ -204,7 +288,7 @@
                                                             <video width="320" height="176" controls="">
                                                                 <source src="http://learning.cgweb.co.uk/emailcontent/Carnival Of Madness UK 2016 - Official Trailer.mp4" type="video/mp4"></source>
                                                                 <source src="http://learning.cgweb.co.uk/emailcontent/Carnival_Of_Madness_UK_2016_-_Official_Trailer.ogv" type="video/ogg"></source>
-                                                                <a href="https://www.youtube.com/watch?v=FOhZ4SfLGIM&elqTrackId=fc2c50c64c8f43f49a07f6072bd4cc23" target="_blank"><img align="center" src="http://learning.cgweb.co.uk/emailcontent/Carnival_Of_Madness_tour_colour.jpg" alt="See a video preview" style="font-size:20px;" title="See a music preview" width="320" height="176"></a>
+                                                                <a href="https://www.youtube.com/watch?v=FOhZ4SfLGIM" target="_blank"><img align="center" src="http://placehold.it/320x176" alt="See a video preview" style="font-size:20px;" title="See a music preview" width="320" height="176"></a>
                                                             </video>
                                                             </div>
                                                         </td>
@@ -228,13 +312,13 @@
                                             <tr>
                                                 <!-- 3. BAND LOGOS -->
                                                 <td align="center">
-                                                    <a href="http://www.blackstonecherry.com?elqTrackId=e65ec50c4b8b4098beb3749c6289d912" target="_blank"><img src="http://learning.cgweb.co.uk/emailcontent/black_stone_cherry_namelogo.gif" width="200" alt="black stone cherry logo" style="color: #FF0000; font-size:20px" title="black stone cherry band logo"></a>
+                                                    <a href="http://www.blackstonecherry.com" target="_blank"><img src="http://placehold.it/200x55" width="200" alt="black stone cherry logo" style="color: #FF0000; font-size:20px" title="black stone cherry band logo"></a>
                                                 </td>
                                                 <td align="center">
-                                                    <a href="http://www.halestormrocks.com?elqTrackId=a4ff0bf4bb5b466d89f202356afec159" target="_blank"><img src="http://learning.cgweb.co.uk/emailcontent/halestorm-logo.png" width="200" alt="halestorm logo" style="color: #FF0000; font-size: 20px;" title="halestorm band logo"></a>
+                                                    <a href="http://www.halestormrocks.com" target="_blank"><img src="http://placehold.it/200x55" width="200" alt="halestorm logo" style="color: #FF0000; font-size: 20px;" title="halestorm band logo"></a>
                                                 </td>
                                                 <td align="center">
-                                                    <a href="http://www.shinedown.com?elqTrackId=3c673892f8cc4181830b44541f697539" target="_blank"><img src="http://learning.cgweb.co.uk/emailcontent/shinedown-logo.png" vspace="10" width="200" alt="shinedown logo" style="color: #FF0000; font-size: 20px;" title="shinedown band logo"></a>
+                                                    <a href="http://www.shinedown.com" target="_blank"><img src="http://placehold.it/200x55" vspace="10" width="200" alt="shinedown logo" style="color: #FF0000; font-size: 20px;" title="shinedown band logo"></a>
                                                 </td>
                                             </tr>
                                         </table>
@@ -257,7 +341,7 @@
                                                     <td valign="top" align="center" style="background-color: #333333; color: #FFFFFF; font-size: 28px; font-weight:normal; padding: 10px 1px 10px 0;">NOV</td>
                                                 </tr>
                                                 <tr>
-                                                    <td align="center" style="font-family: 'Open Sans', Arial, sans-serif; font-size: 20px; font-weight: normal; padding: 5px 0 5px 10px"><a href="http://carnivalofmadness.com/?elqTrackId=1712de873b384eedb9ed1fa2ac49326f" style="color: #CC0000; text-decoration:none;" target="_blank">See More Dates</a></td>
+                                                    <td align="center" style="font-family: 'Open Sans', Arial, sans-serif; font-size: 20px; font-weight: normal; padding: 5px 0 5px 10px"><a href="http://carnivalofmadness.com/" style="color: #CC0000; text-decoration:none;" target="_blank">See More Dates</a></td>
                                                 </tr>
                                             </table>
                                         </td>
@@ -267,7 +351,7 @@
                                                     <td class="mobile-hide" align="center" style="font-size: 24px; font-weight: normal; padding: 10px 0 10px 0;">The SSE Arena, Glasgow</td>
                                                 </tr>
                                                 <tr>
-                                                    <td style="font-family: 'Open Sans', Arial, sans-serif; font-size: 18px; font-weight: normal; padding: 5px 0 5px 10px;"><a href="http://www.ticketmaster.co.uk/Carnival-of-Madness-tickets/artist/1453616?elqTrackId=b30586e66f82419ca8a3cbe311400ddc" style="color: #CC0000; text-decoration:none;" target="_blank">Get Tickets From Ticketmaster&nbsp;&raquo;</a></td>
+                                                    <td style="font-family: 'Open Sans', Arial, sans-serif; font-size: 18px; font-weight: normal; padding: 5px 0 5px 10px;"><a href="http://www.ticketmaster.co.uk/Carnival-of-Madness-tickets/artist/1453616" style="color: #CC0000; text-decoration:none;" target="_blank">Get Tickets From Ticketmaster&nbsp;&raquo;</a></td>
                                                 </tr>
                                                 <tr>
                                                     <td style="font-family: 'Open Sans', Arial, sans-serif; font-size: 18px; font-weight: normal; padding: 5px 0 5px 16px;"><a href="http://www.livenation.co.uk/artist/the-carnival-of-madness-tour-2016-tickets?omq=carnival%20of%20madness" style="color: #CC0000; text-decoration:none; text-align:left;" target="_blank">Get Tickets From Livenation&nbsp;&raquo;</a></td>
@@ -281,27 +365,82 @@
                         <tr>
                             <!-- 5. MERCHANDISE SECTION -->
                             <td align="center" class="three-col" style="font-weight: normal;">
-                                <table align="left" border="0" cellpadding="0" cellspacing="0" width="100%" style="border-collapse: collapse;">
-                                    <tr>
-                                        <td align="center">
-                                            <img class="merch-image" src="http://placehold.it/200x200" alt="BSC t-shirt" title="Black Stone Cherry Kentucky t-shirt" width="200"><br><div style="font-size: 18px; font-weight:normal">&pound;15.00</div>
-                                            <div align="center" class="buyMe" style="background-color: #CC0000; font-family: 'Montserrat', Arial, sans-serif; font-size: 20px; font-weight: normal; padding: 10px 0 10px 0;"><a href="http://shop.kentuckyalbum.com/uk/kentucky-t-shirt.html" target="_blank" style="color: #FFFFFF;">BUY</a></div>
-                                        </td>
-                                        <td align="center">
-                                            <img class="merch-image" src="http://placehold.it/200x200" alt="Halestorm t-shirt" title="Halestorm album t-shirt" width="200"><br><div style="font-size:18px; font-weight: normal;">&pound;20.00</div>
-                                            <div align="center" class="buyMe" style="border-collapse: collapse; background-color: #CC0000; font-family: 'Montserrat', Arial, sans-serif; font-size: 20px; font-weight: normal; padding: 10px 0 10px 0;" width="200"><a href="http://store.halestormrocks.com/apparel/t-shirts/wildlife-north-american-tour-t-shirt-6.html" target="_blank" style="color: #FFFFFF;">BUY</a></div>
-                                        </td>
-                                        <td align="center">
-                                            <img class="merch-image" src="http://placehold.it/200x200" alt="Shinedown t-shirt" title="Shinedown Deco t-shirt" width="200"><br><div style="font-size:18px; font-weight: normal;">&pound;20.00</div>
-                                            <div class="buyMe" style="background-color: #CC0000; font-family: 'Montserrat', Arial, sans-serif; font-size: 20px; font-weight: normal; padding: 10px 0 10px 0;" width="200"><a href="http://store.shinedown.com/apparel-1/t-shirts/all-over-deco-5.html" target="_blank" style="color: #FFFFFF;">BUY</a></div>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td align="center" class="mobPadding" style="font-family: 'Open Sans', Arial, sans-serif; font-size: 20px; font-weight: normal; padding: 10px 0 10px 0;"><a href="http://www.blackstonecherrystore.co.uk/acatalog/" target="_blank" style="color: #CC0000; text-decoration:none;">BSC merchandise</a></td>
-                                        <td align="center" class="mobPadding" style="font-family: 'Open Sans', Arial, sans-serif; font-size: 20px; font-weight: normal; padding: 10px 0 10px 0;"><a href="http://store.halestormrocks.com" style="color: #CC0000; text-decoration:none;" target="_blank">Halestorm merchandise</a></td>
-                                        <td align="center" class="mobPadding" style="font-family: 'Open Sans', Arial, sans-serif; font-size: 20px; font-weight: normal; padding: 10px 0 10px 0;"><a href="http://store.shinedown.com" style="color: #CC0000; text-decoration:none;" target="_blank">Shinedown merchandise</a></td>
-                                    </tr>
-                                </table>
+                                <!--[if (gte mso 9)|(IE)]>
+                                <table width="100%">
+                                <tr>
+                                <td width="200" valign="top">
+                                <![endif]-->
+<div class="column">
+    <table width="100%">
+        <tr>
+            <td class="inner">
+                <table class="contents">
+                    <tr>
+                        <td>
+                            <img src="http://placehold.it/180x80" width="180" alt="" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="text"> COLUMN ONE:
+                            Scelerisque congue eros eu posuere. Praesent in felis ut velit pretium lobortis rhoncus ut erat.
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+</div>
+<!--[if (gte mso 9)|(IE)]>
+    </td><td width="200" valign="top">
+    <![endif]-->
+        <div class="column">
+        <table width="100%">
+            <tr>
+            <td class="inner">
+            <table class="contents">
+            <tr>
+            <td>
+                <img src="http://placehold.it/180x80" width="180" alt="" />
+            </td>
+            </tr>
+            <tr>
+                <td class="text"> COLUMN TWO:
+                    Scelerisque congue eros eu posuere. Praesent in felis ut velit pretium lobortis rhoncus ut erat.
+                </td>
+            </tr>
+            </table>
+            </td>
+            </tr>
+        </table>
+        </div>
+        <!--[if (gte mso 9)|(IE)]>
+            </td><td width="200" valign="top">
+            <![endif]-->
+            <div class="column">
+<table width="100%">
+<tr>
+<td class="inner">
+<table class="contents">
+<tr>
+    <td>
+        <img src="http://placehold.it/180x80" width="180" alt="" />
+    </td>
+</tr>
+<tr>
+    <td class="text"> COLUMN ONE:
+        Scelerisque congue eros eu posuere. Praesent in felis ut velit pretium lobortis rhoncus ut erat.
+    </td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</div>
+<!--[if (gte mso 9)|(IE)]>
+        </td>
+        </tr>
+        </table>
+        <![endif]-->
                             </td>
                         </tr>
 
@@ -314,12 +453,12 @@
                                             <table border="0" cellpadding="0" cellspacing="0" style="border-collapse:collapse;" width="100%">
                                                 <tr>
                                                     <td align="center">
-                                                        <img class="mobile-image" src="http://learning.cgweb.co.uk/emailcontent/black_stone_cherry_band_members.png" alt="Black Stone Cherry photo" title="Black Stone Cherry Members" width="200" style="display:block; height: 100px;">
+                                                        <img class="mobile-image" src="http://placehold.it/200x100" alt="Black Stone Cherry photo" title="Black Stone Cherry Members" width="200" style="display:block; height: 100px;">
                                                     </td>
                                                     <td align="center">
-                                                        <img class="mobile-image" src="http://learning.cgweb.co.uk/emailcontent/halestorm.jpg" alt="Halestorm photo" title="Halestorm Band Members" width="200" style="display:block; height: 100px;"></td>
+                                                        <img class="mobile-image" src="http://placehold.it/200x100" alt="Halestorm photo" title="Halestorm Band Members" width="200" style="display:block; height: 100px;"></td>
                                                     <td align="center">
-                                                        <img class="mobile-image" src="http://learning.cgweb.co.uk/emailcontent/shinedown-band-members.jpg" alt="Shinedown photo" title="Shinedown Band Members" width="200" style="display:block; height: 100px;">
+                                                        <img class="mobile-image" src="http://placehold.it/200x100" alt="Shinedown photo" title="Shinedown Band Members" width="200" style="display:block; height: 100px;">
                                                     </td>
                                                 </tr>
                                                 <tr>
@@ -357,14 +496,16 @@
                     </table>
                 </td>
             </tr>
-        </table>
+        <!-- </table>
     </td>
-</tr>
+</tr> -->
 </table>
 <!--[if (gte mso 9)|(IE)]>
 </td>
 </tr>
 </table>
 <![endif]-->
+</div>
+</center>
 </body>
 </html>
