@@ -5,7 +5,7 @@
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
+/*html, body, div, span, applet, object, iframe,
 h4, h5, h6, pre,
 a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
@@ -24,9 +24,9 @@ time, mark, audio, video {
 	font-size: 100%;
 	font: inherit;
 	vertical-align: middle;
-}
+}*/
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure,
+/*article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -44,7 +44,7 @@ q:before, q:after {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
-}
+}*/
 
 /* END OF RESET */
 
@@ -62,7 +62,6 @@ table {
 html { font-size: 100%; }
 
 body {
-	/*background: #BFBFBF;*/
 	font: normal 1em/1.4 'Open Sans', Arial, sans-serif;
 	margin: 1rem auto;
 	width: 20em;
@@ -81,12 +80,12 @@ nav ul {
 
 nav li {
 	background-color: #333;
-	font-size: 1.2rem;
+	display: inline-block;
+	/*font-size: 1.2rem;*/
 	list-style-type: none;
-	margin-top: 1em;
-	padding: 1em 0;
+	/*margin-top: 1em;*/
+	/*padding: 1em 0;*/
 	text-align: center;
-	width: 100% !important;
 }
 nav li:first-child {
 	margin-top: 0;
