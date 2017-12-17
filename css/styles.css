@@ -116,6 +116,18 @@ code {
   flex-flow: row nowrap;
 }
 
+/* BLOG POSTS STYLES */
+
+.posts li {
+	display: block;
+	font-size: 1.1em;
+	padding-top: 1em;
+}
+
+.posts li:first-child {
+	padding: 0;
+}
+
 /* PROJECTS PAGE STYLES */
 
 .projects {
