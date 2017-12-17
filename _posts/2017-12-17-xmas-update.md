@@ -11,9 +11,9 @@ I am currently refreshing the basics of ES6 syntax including using ```const vari
 I have also signed up to another Wes Bos course to learn NodeJS which I will take at some point next year as well as finishing the JS30 course. At the moment I am attempting to refresh my current JavaScript skills and learn some more as mentioned around ES6 syntax and more advanced JS.
 
 I have also bought some ebooks from [A Book Apart](https://abookapart.com) these are:
-    - Accessibility for Everyone
-    - Just Enough Research
-    - New CSS Layout - to help me learn about CSS Grid
-    - Responsive Design: Patterns and Principles
+    * Accessibility for Everyone
+    * Just Enough Research
+    * New CSS Layout - to help me learn about CSS Grid
+    * Responsive Design: Patterns and Principles
 
 These are to help me learn more about accessibility, layout and more general knowledge around web development and coding.
