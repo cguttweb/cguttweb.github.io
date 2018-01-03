@@ -1,16 +1,15 @@
 
+:root {
+  font: normal 100%/1.4 'Open Sans', Helvetica, sans-serif;;
+}
+
 body {
 	background: #f1f2f2;
 	color: #000000;
-	font: normal 100%/1.4 "Open Sans", Helvetica, sans-serif;
 	margin: 0 auto;
-	width: 80%;
+	max-width: 93.750em;
 }
 
-.wrapper {
-  margin: 0 auto;
-  max-width: 90em;
-}
 
 header, nav {
 	text-align: center;
@@ -224,4 +223,30 @@ footer {
 .ft-col-3 li, .ft-col-3 a {
 	color: #FFFFFF;
 	display: inline-block;
+}
+
+@media (max-width: 400px) {
+	body {
+		width: 90%;
+	}
+	.main-nav ul {
+		display: block;
+	}
+	.main-nav li {
+		font-size: 1.3rem;
+	}
+	.main-nav li:before {
+		display: none;
+	}
+	.content {
+		font-size: 1.1rem;
+		padding: 0 1rem;
+	}
+	footer {
+		display: block;
+		padding: 0.5rem 0;
+	 }
+	.ft-col-1 ul {
+		padding: 0;
+	}
 }
