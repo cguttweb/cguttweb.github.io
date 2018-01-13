@@ -129,13 +129,14 @@ code {
 
 /* PROJECTS PAGE STYLES */
 
-.projects {
+.projects-boxes, .projects-text {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-flow: row nowrap;
   flex-flow: row nowrap;
   -ms-flex-pack: distribute;
   justify-content: space-around;
+  text-align: center;
 }
 
 .box {
@@ -249,4 +250,20 @@ footer {
 	.ft-col-1 ul {
 		padding: 0;
 	}
+    form input,
+    textarea {
+      display: block;
+      width: 100%;
+    }
+    .projects-boxes {
+        display: block;
+        text-align: center;
+    }
+    .one, .two, .three, .four {
+        text-align: center;
+        width: auto;
+    }
+    .box-text {
+        display: none;
+    }
 }
