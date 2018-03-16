@@ -4,10 +4,9 @@ title: Web Development Blog
 ---
 	<h1>{{ page.title }}</h1>
 					{% include nav.html %}
-	<p>This site and <a href="/blog" target="_blank">blog</a> were created as my attempt to try and learn a bit about jekyll and markdown and how it integrates with github pages. I will attempt to document my progress as I (try to) improve my front end skills particularly around <a href="https://www.javascript.com" target="_blank">JavaScript</a>, <a href="https://jquery.com" target="_blank">jQuery</a> and the <a href="https://getbootstrap.com" target="_blank">Twitter Bootstrap</a> framework. Although as usual I will probably be trying other things in between probably dabbling in a bit of markdown and learning a bit more about Linux. </p>
+	<p>This <a href="/blog" target="_blank">blog</a> was created as my attempt to try and learn a bit about jekyll and markdown and how it integrates with github pages. I will attempt to document my progress as I (try to) improve my front end skills particularly around <a href="https://www.javascript.com" target="_blank">JavaScript</a>, <a href="https://jquery.com" target="_blank">jQuery</a> and the <a href="https://getbootstrap.com" target="_blank">Twitter Bootstrap</a> framework. Although as usual I will probably be trying other things in between probably dabbling in a bit of markdown and learning a bit more about Linux. </p>
 
 	<ul class="posts">
-
 	  {% for post in site.posts %}
 	    <li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}"
 								   title="{{ post.title }}">{{ post.title }}</a></li>
