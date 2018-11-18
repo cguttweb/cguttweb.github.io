@@ -3,3 +3,6 @@ markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
 plugins_dir:
 - jekyll-sitemap
+sass:
+    sass_dir: _sass
+    style: compressed

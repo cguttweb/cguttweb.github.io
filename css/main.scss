@@ -1,0 +1,276 @@
+---
+
+---
+
+@import "colours";
+
+
+:root {
+    font: normal 100%/1.4 'Open Sans', Helvetica, sans-serif;;
+  }
+  
+  body {
+      background: #f1f2f2;
+      color: #000000;
+      margin: 0 auto;
+      max-width: 93.750em;
+  }
+  
+  
+  header, nav {
+      text-align: center;
+  }
+  
+  h1 {
+    color: #CC0000;
+    text-align: center;
+  }
+  
+  h1:before {
+    content: '';
+  }
+  
+  h1:after {
+    content: '';
+  }
+  
+  a {
+      color: #CC0000;
+      text-decoration: none;
+  }
+  
+  a:hover {
+      background: #CC0000;
+      color: #FFFFFF;
+      font-weight: bold;
+  }
+  
+  /* NAVIGATION STYLES */
+  
+  .main-nav ul {
+    display: -ms-flexbox;
+    display: flex;
+    height: 100%;
+  }
+  
+  .main-nav ul:first-child {
+    padding: 0;
+  }
+  
+  .main-nav li {
+    background: #333333;
+    -ms-flex-positive: 2;
+    flex-grow: 2;
+    list-style-type: none;
+    padding: 0.5rem;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  
+  .main-nav li:before {
+    content: '\2302';
+    color: #ffffff;
+    padding-right: 0.5rem;
+    -ms-flex-item-align: center;
+    -ms-grid-row-align: center;
+    align-self: center;
+  }
+  
+  .main-nav li:nth-child(2):before {
+    content: '\270d';
+    color: #ffffff;
+    padding-right: 0.5rem;
+  }
+  
+  .main-nav li:nth-child(3):before {
+    content: '\2712';
+    color: #ffffff;
+    padding-right: 0.5rem;
+  }
+  
+  .main-nav li:nth-child(4):before {
+    content: '\2328';
+    color: #ffffff;
+    padding-right: 0.5rem;
+  }
+  
+  .main-nav li:nth-child(5):before {
+    content: '\2709';
+    color: #ffffff;
+    padding-right: 0.5rem;
+  }
+  
+  .main-nav a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+  .main-nav a:hover {
+    font-weight: bold;
+  }
+  
+  code {
+      background: #fff;
+      color: #ff0000;
+  }
+  
+  .maincontent {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-flow: row nowrap;
+    flex-flow: row nowrap;
+  }
+  
+  /* BLOG POSTS STYLES */
+  
+  .posts li {
+      display: block;
+      font-size: 1.1em;
+      padding-top: 1em;
+  }
+  
+  .posts li:first-child {
+      padding: 0;
+  }
+  
+  /* PROJECTS PAGE STYLES */
+  
+  .projects-boxes, .projects-text {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-flow: row nowrap;
+    flex-flow: row nowrap;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    text-align: center;
+  }
+  
+  .box {
+    border: 1px solid #CC0000;
+    height: 9.375rem;
+    margin-bottom: 0.5rem;
+    width: 9.375rem;
+  }
+  
+  .one {
+    background: #a96df3;
+    border: 2px solid #25064c;
+  }
+  
+  .two {
+    background: #999900;
+    border: 2px solid #ff6e00;
+  }
+  
+  .three {
+    background: #cc5800;
+    border: 2px solid #CC0000;
+  }
+  
+  .four {
+    background: #008504;
+    border: 2px solid #004701;
+  }
+  
+  .box-text {
+    font-size: 0.9rem;
+    padding: 0.5rem;
+  }
+  
+  /* FORM STYLES */
+  
+  .form {
+    margin: 0 auto;
+  }
+  
+  form input,
+  textarea {
+    display: block;
+    width: 30em;
+  }
+  
+  input {
+    height: 30px;
+  }
+  
+  /* FOOTER STYLES */
+  
+  footer {
+    background: #333333;
+    color: #ffffff;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-positive: 2;
+    flex-grow: 2;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    text-align: center;
+  }
+  
+  .ft-col-1 li {
+    display: inline-block;
+    width: 2rem;
+  }
+  
+  .ft-col-1 a {
+    color: #ffffff;
+    font-size: 1.6rem;
+  }
+  
+  .ft-col-2,
+  .ft-col-3 {
+    -ms-flex-item-align: center;
+    -ms-grid-row-align: center;
+    align-self: center;
+    font-size: 0.9rem;
+  }
+  
+  .ft-col-3 li, .ft-col-3 a {
+      color: #FFFFFF;
+      display: inline-block;
+  }
+  
+  @media (max-width: 400px) {
+      body {
+          width: 90%;
+      }
+      .main-nav ul {
+          display: block;
+      }
+      .main-nav li {
+          font-size: 1.3rem;
+      }
+      .main-nav li:before {
+          display: none;
+      }
+      .content {
+          color: $blue;
+          font-size: 1.1rem;
+          padding: 0 1rem;
+      }
+      footer {
+          display: block;
+          padding: 0.5rem 0;
+       }
+      .ft-col-1 ul {
+          padding: 0;
+      }
+      form input,
+      textarea {
+        display: block;
+        width: 100%;
+      }
+      .projects-boxes {
+          display: block;
+          text-align: center;
+      }
+      .one, .two, .three, .four {
+          text-align: center;
+          width: auto;
+      }
+      .box-text {
+          display: none;
+      }
+  }
