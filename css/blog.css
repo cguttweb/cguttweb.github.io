@@ -27,7 +27,12 @@ ul {
 	padding: 0;
 }
 
-
+.main-nav, .main-footer {
+    background: linear-gradient(to right, #FF0000, orange, yellow, green, limegreen, cyan, blue, indigo, purple 100%);
+    clear: both;
+    display: flex;
+    justify-content: center;
+}
 
 li {
 	display: inline-block;
@@ -44,3 +49,56 @@ li {
 .posts li:first-child {
 	padding: 0;
 }
+
+
+/* FOOTER STYLES */
+
+footer, .copyright {
+  display: flex;
+  flex-grow: 2;
+  justify-content: center;
+  padding: $pad-sm 0;
+  text-align:center;
+  text-decoration: none;
+}
+
+footer a, .copyright a {
+    color: $red;
+    list-style: none;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: $white;
+}
+
+.main-footer ul {
+    margin: 0;
+    padding: $pad-sm 0;
+}
+    
+.ft-col-1 li {
+    display: inline-block;
+    font-size: 2rem;
+    padding: 0 $pad-med;
+    width: 2rem;
+}
+
+.ft-col-1 a {
+    color: #ffffff;
+    font-size: 1.6rem;
+}
+  
+  .ft-col-2,
+  .ft-col-3 {
+    -ms-flex-item-align: center;
+    -ms-grid-row-align: center;
+    align-self: center;
+    font-size: 0.9rem;
+    padding: 0 $pad-med;
+  }
+  
+  .ft-col-3 li, .ft-col-3 a {
+      color: #FFFFFF;
+      display: inline-block;
+  }

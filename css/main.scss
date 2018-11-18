@@ -3,19 +3,19 @@
 ---
 
 @import "colours";
+@import "base";
 
 
 :root {
     font: normal 100%/1.4 'Open Sans', Helvetica, sans-serif;;
   }
   
-  body {
-      background: #f1f2f2;
-      color: #000000;
-      margin: 0 auto;
-      max-width: 93.750em;
-  }
-  
+//   body {
+//       background: #f1f2f2;
+//       color: #000000;
+//       margin: 0 auto;
+//       max-width: 93.750em;
+//   }
   
   header, nav {
       text-align: center;
@@ -43,28 +43,6 @@
       background: #CC0000;
       color: #FFFFFF;
       font-weight: bold;
-  }
-  
-  /* NAVIGATION STYLES */
-  
-  .main-nav ul {
-    display: -ms-flexbox;
-    display: flex;
-    height: 100%;
-  }
-  
-  .main-nav ul:first-child {
-    padding: 0;
-  }
-  
-  .main-nav li {
-    background: #333333;
-    -ms-flex-positive: 2;
-    flex-grow: 2;
-    list-style-type: none;
-    padding: 0.5rem;
-    text-align: center;
-    text-transform: uppercase;
   }
   
   .main-nav li:before {
@@ -100,26 +78,27 @@
     padding-right: 0.5rem;
   }
   
-  .main-nav a {
-    color: #ffffff;
-    text-decoration: none;
-  }
+//   .main-nav a {
+//     color: #ffffff;
+//     text-decoration: none;
+//   }
   
-  .main-nav a:hover {
-    font-weight: bold;
-  }
+//   .main-nav a:hover {
+//     font-weight: bold;
+//   }
   
   code {
       background: #fff;
       color: #ff0000;
   }
+
   
-  .maincontent {
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-flow: row nowrap;
-    flex-flow: row nowrap;
-  }
+  // .maincontent {
+  //   display: -ms-flexbox;
+  //   display: flex;
+  //   -ms-flex-flow: row nowrap;
+  //   flex-flow: row nowrap;
+  // }
   
   /* BLOG POSTS STYLES */
   
@@ -135,47 +114,47 @@
   
   /* PROJECTS PAGE STYLES */
   
-  .projects-boxes, .projects-text {
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-flow: row nowrap;
-    flex-flow: row nowrap;
-    -ms-flex-pack: distribute;
-    justify-content: space-around;
-    text-align: center;
-  }
+  // .projects-boxes, .projects-text {
+  //   display: -ms-flexbox;
+  //   display: flex;
+  //   -ms-flex-flow: row nowrap;
+  //   flex-flow: row nowrap;
+  //   -ms-flex-pack: distribute;
+  //   justify-content: space-around;
+  //   text-align: center;
+  // }
   
-  .box {
-    border: 1px solid #CC0000;
-    height: 9.375rem;
-    margin-bottom: 0.5rem;
-    width: 9.375rem;
-  }
+  // .box {
+  //   border: 1px solid #CC0000;
+  //   height: 9.375rem;
+  //   margin-bottom: 0.5rem;
+  //   width: 9.375rem;
+  // }
   
-  .one {
-    background: #a96df3;
-    border: 2px solid #25064c;
-  }
+  // .one {
+  //   background: #a96df3;
+  //   border: 2px solid #25064c;
+  // }
   
-  .two {
-    background: #999900;
-    border: 2px solid #ff6e00;
-  }
+  // .two {
+  //   background: #999900;
+  //   border: 2px solid #ff6e00;
+  // }
   
-  .three {
-    background: #cc5800;
-    border: 2px solid #CC0000;
-  }
+  // .three {
+  //   background: #cc5800;
+  //   border: 2px solid #CC0000;
+  // }
   
-  .four {
-    background: #008504;
-    border: 2px solid #004701;
-  }
+  // .four {
+  //   background: #008504;
+  //   border: 2px solid #004701;
+  // }
   
-  .box-text {
-    font-size: 0.9rem;
-    padding: 0.5rem;
-  }
+  // .box-text {
+  //   font-size: 0.9rem;
+  //   padding: 0.5rem;
+  // }
   
   /* FORM STYLES */
   
@@ -191,45 +170,6 @@
   
   input {
     height: 30px;
-  }
-  
-  /* FOOTER STYLES */
-  
-  footer {
-    background: #333333;
-    color: #ffffff;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-direction: row;
-    flex-direction: row;
-    -ms-flex-positive: 2;
-    flex-grow: 2;
-    -ms-flex-pack: distribute;
-    justify-content: space-around;
-    text-align: center;
-  }
-  
-  .ft-col-1 li {
-    display: inline-block;
-    width: 2rem;
-  }
-  
-  .ft-col-1 a {
-    color: #ffffff;
-    font-size: 1.6rem;
-  }
-  
-  .ft-col-2,
-  .ft-col-3 {
-    -ms-flex-item-align: center;
-    -ms-grid-row-align: center;
-    align-self: center;
-    font-size: 0.9rem;
-  }
-  
-  .ft-col-3 li, .ft-col-3 a {
-      color: #FFFFFF;
-      display: inline-block;
   }
   
   @media (max-width: 400px) {
