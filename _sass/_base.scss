@@ -57,10 +57,10 @@ nav li {
     background:linear-gradient(to bottom, $black 50%, $darkgrey, $lightgrey);
     color: $white;
     display: grid;
-    grid-gap: 0.75rem;
+    grid-gap: 1rem;
     padding: $pad-med $pad-lg*3;
-    grid-template-columns: repeat(200px, 1fr);
-    grid-template-rows: repeat(minmax(50px, 1fr))
+    // grid-template-columns: repeat(200px, 1fr);
+    // grid-template-rows: repeat(minmax(50px, 1fr))
 }
 
 p {
@@ -71,19 +71,13 @@ p {
 .intro {
     display: grid;
     grid-template-columns: 1fr;
+    padding: $pad-sm $pad-med;
 }
 
 .second {
-    // background-color: $blue;
     display: grid;
-    grid-template-columns: 1fr 2fr auto;
-}
-.third {
-    background: $green;
-    display: grid;
-    grid-area: 'three';
-    grid-gap: 1rem;
-    grid-template-columns: auto 500px auto;
+    // grid-template-columns: 1fr 2fr;
+    padding: $pad-sm $pad-med;
 }
 
 // FOOTER STYLES
