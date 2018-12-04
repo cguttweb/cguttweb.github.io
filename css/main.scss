@@ -112,50 +112,6 @@
       padding: 0;
   }
   
-  /* PROJECTS PAGE STYLES */
-  
-  // .projects-boxes, .projects-text {
-  //   display: -ms-flexbox;
-  //   display: flex;
-  //   -ms-flex-flow: row nowrap;
-  //   flex-flow: row nowrap;
-  //   -ms-flex-pack: distribute;
-  //   justify-content: space-around;
-  //   text-align: center;
-  // }
-  
-  // .box {
-  //   border: 1px solid #CC0000;
-  //   height: 9.375rem;
-  //   margin-bottom: 0.5rem;
-  //   width: 9.375rem;
-  // }
-  
-  // .one {
-  //   background: #a96df3;
-  //   border: 2px solid #25064c;
-  // }
-  
-  // .two {
-  //   background: #999900;
-  //   border: 2px solid #ff6e00;
-  // }
-  
-  // .three {
-  //   background: #cc5800;
-  //   border: 2px solid #CC0000;
-  // }
-  
-  // .four {
-  //   background: #008504;
-  //   border: 2px solid #004701;
-  // }
-  
-  // .box-text {
-  //   font-size: 0.9rem;
-  //   padding: 0.5rem;
-  // }
-  
   /* FORM STYLES */
   
   .form {
@@ -176,45 +132,55 @@
       display: none;
   }
   
-  @media (max-width: 400px) {
-      body {
-          width: 90%;
-      }
-      .main-nav ul {
-          display: block;
-      }
-      .main-nav li {
-          font-size: 1.3rem;
-      }
-      .main-nav li:before {
-          display: none;
-      }
-      .content {
-          color: $blue;
-          font-size: 1.1rem;
-          padding: 0 1rem;
-      }
-      footer {
-          display: block;
-          padding: 0.5rem 0;
-       }
-      .ft-col-1 ul {
-          padding: 0;
-      }
-      form input,
-      textarea {
+@media (max-width: 400px) {
+    body {
+        width: 90%;
+    }
+    h1 {
+        font-size: 2rem;
+    }
+    .main-nav {
+        background: transparent;
+        border: 1px solid $white;
+    }
+    .main-nav ul { 
+        padding: 0; 
+    }
+    .main-nav li {
         display: block;
-        width: 100%;
-      }
-      .projects-boxes {
-          display: block;
-          text-align: center;
-      }
-      .one, .two, .three, .four {
-          text-align: center;
-          width: auto;
-      }
-      .box-text {
-          display: none;
-      }
-  }
+        font-size: 1.3rem;
+        padding: 0;
+        text-align: center;
+    }
+    .main-nav li:before {
+        display: none;
+    }
+    .content {
+        font-size: 1.1rem;
+        // padding: 0 1rem;
+    }
+    .main-footer {
+        background: $darkgrey;
+        display: block;
+        padding: 0;
+    }
+    .ft-col-1 ul {
+        padding: 0;
+    }
+    form input,
+    textarea {
+    display: block;
+    width: 100%;
+    }
+    .projects-boxes {
+        display: block;
+        text-align: center;
+    }
+    .one, .two, .three, .four {
+        text-align: center;
+        width: auto;
+    }
+    .box-text {
+        display: none;
+    }
+}
