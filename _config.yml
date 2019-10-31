@@ -6,3 +6,4 @@ plugins_dir:
 sass:
     sass_dir: _sass
     style: compressed
+theme: jekyll-theme-midnight
